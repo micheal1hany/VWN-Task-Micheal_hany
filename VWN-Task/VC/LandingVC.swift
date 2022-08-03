@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LandingVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func loginBtn(_ sender: Any) {
+        navigate(screenID: "log_in")
+    }
+    
+    @IBAction func signUpBtn(_ sender: Any) {
+    }
 }
 
